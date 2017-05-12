@@ -20,11 +20,11 @@ function doAnimation(myPath){
         rendererSettings: {
             progressiveLoad:false
         },
-        path: myPath
+        path: "animations/" + myPath + ".json"
     };
     anim = bodymovin.loadAnimation(animData);
     animNumber++;
 }
 
-doAnimation('animations/firstAnimation.json');       
-doAnimation('animations/secondAnimation.json');
+doAnimation('first');
+doAnimation('second');
