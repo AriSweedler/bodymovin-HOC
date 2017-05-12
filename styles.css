@@ -1,0 +1,21 @@
+body{
+    background-color:none;
+    margin: 10px;
+    height: 600px;
+    width: 800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.bodymovinHost{
+    background-color:#aaaaaa;
+    border-color: green;
+    border: solid;
+    width:100%;
+    height:300px;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    margin: auto;
+    opacity: 1;
+}
