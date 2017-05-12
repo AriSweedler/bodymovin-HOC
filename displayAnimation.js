@@ -25,6 +25,3 @@ function doAnimation(myPath){
     anim = bodymovin.loadAnimation(animData);
     animNumber++;
 }
-
-doAnimation('first');
-doAnimation('second');
